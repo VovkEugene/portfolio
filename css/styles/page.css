@@ -1,11 +1,18 @@
-:root{
-    --accent-color: #1BFF07;
-    --text-color: #fff;
-    --background-color: #000;
+:root {
+  --accent-color: #1bff07;
+  --text-color: #fff;
+  --background-color: #000;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: IBM Plex Mono;
+  color: var(--text-color);
 }
 .container {
-    width: 1180px;
-    margin: 0 auto;
-    padding: 0 15px;
-    background-color: green;
-  }
+  width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* background-color: rgba(0, 128, 0, 0.363); */
+}

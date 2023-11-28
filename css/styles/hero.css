@@ -1,0 +1,22 @@
+.hero {
+  height: 765px;
+  padding-top: 334px;
+  background-color: green;
+  background: url("../../img/content/hero/hero_bg.jpg") center no-repeat;
+}
+.hero__description {
+  width: 430px;
+  margin-bottom: 27px;
+  color: #fff;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+.hero__title {
+  width: 919px;
+  margin-left: -5px;
+  color: var(--accent-color);
+  font-size: 80px;
+  line-height: 87.5%;
+  letter-spacing: -2.4px;
+}

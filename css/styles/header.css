@@ -1,8 +1,10 @@
 .header {
+  position: absolute;
+  width: 100%;
   padding-top: 33px;
-  background-color: olivedrab;
 }
 .header__container {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
@@ -15,28 +17,19 @@
   border-radius: 100px;
   background-color: var(--background-color);
   color: var(--accent-color);
-  font-family: IBM Plex Mono;
   font-size: 42.414px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -4.666px;
   text-transform: uppercase;
 }
-.header__menu {
-}
 .menu__items {
   display: flex;
   column-gap: 50px;
 }
 .menu__item {
-  color: var(--text-color);
-  font-family: IBM Plex Mono;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
   letter-spacing: -0.54px;
   text-transform: lowercase;
-}
-.menu__link {
 }
