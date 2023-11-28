@@ -32,4 +32,9 @@
   line-height: normal;
   letter-spacing: -0.54px;
   text-transform: lowercase;
+  transition: all 0.3s ease 0s;
+}
+.menu__item:hover {
+  color: var(--accent-color);
+  text-shadow: 0 0 2px var(--accent-color);
 }

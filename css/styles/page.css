@@ -7,8 +7,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: IBM Plex Mono;
+  font-family: "IBM Plex Mono", monospace;
   color: var(--text-color);
+  background-color: var(--background-color);
 }
 .container {
   width: 1180px;
