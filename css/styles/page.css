@@ -1,0 +1,11 @@
+:root{
+    --accent-color: #1BFF07;
+    --text-color: #fff;
+    --background-color: #000;
+}
+.container {
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: green;
+  }
