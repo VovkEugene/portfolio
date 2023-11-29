@@ -17,3 +17,13 @@ body {
   padding: 0 15px;
   /* background-color: rgba(0, 128, 0, 0.363); */
 }
+.section {
+  margin-bottom: 150px;
+}
+.title {
+  margin-left: -5px;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+}

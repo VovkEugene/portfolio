@@ -9,6 +9,7 @@
   justify-content: space-between;
 }
 .header__logo {
+  margin-top: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,6 +23,9 @@
   line-height: normal;
   letter-spacing: -4.666px;
   text-transform: uppercase;
+}
+.header__logo a {
+  margin: -3px 0 0 -5px;
 }
 .menu__items {
   display: flex;
