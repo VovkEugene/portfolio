@@ -1,0 +1,51 @@
+.competencies {
+}
+.competencies__container {
+}
+.competencies__title {
+  margin-bottom: 139px;
+  font-size: 55px;
+  line-height: normal;
+  letter-spacing: -1.65px;
+}
+.article-competencies {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 106px;
+}
+.competency {
+  position: relative;
+  flex: 1 1 50%;
+}
+.competency__title {
+  margin-bottom: 15px;
+  color: var(--accent-color);
+  font-size: 35px;
+  line-height: normal;
+  letter-spacing: -1.05px;
+}
+.competency__title::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 44px;
+  top: -61px;
+  left: 0;
+}
+.competency:nth-child(1) .competency__title::before {
+  background: url("../../img/decor/competencies/html.svg") no-repeat;
+}
+.competency:nth-child(2) .competency__title::before {
+  background: url("../../img/decor/competencies/js.svg") no-repeat;
+}
+.competency:nth-child(3) .competency__title::before {
+  background: url("../../img/decor/competencies/library.svg") no-repeat;
+}
+.competency:nth-child(4) .competency__title::before {
+  background: url("../../img/decor/competencies/react.svg") no-repeat;
+}
+.competency__text {
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;
+}
