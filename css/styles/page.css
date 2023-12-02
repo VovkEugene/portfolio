@@ -2,13 +2,15 @@
   --accent-color: #1bff07;
   --text-color: #fff;
   --background-color: #000;
-  --background-article: #191C19;
+  --background-article: #191c19;
+  --background-input: #3b3d3b;
+  --main-font: "IBM Plex Mono", monospace;
 }
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--main-font);
   color: var(--text-color);
   background-color: var(--background-color);
 }
