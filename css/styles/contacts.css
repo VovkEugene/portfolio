@@ -3,6 +3,7 @@
   height: 717px;
   margin: 0 auto;
   margin-top: -3px;
+  margin-bottom: 10px;
   border-radius: 30px;
   background: var(--background-article)
     url("../../img/decor/contacts/programmer.svg") right no-repeat;

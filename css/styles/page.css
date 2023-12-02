@@ -5,6 +5,7 @@
   --background-article: #191c19;
   --background-input: #3b3d3b;
   --main-font: "IBM Plex Mono", monospace;
+  --secondary-font: "Manrope", sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -18,7 +19,6 @@ body {
   width: 1180px;
   margin: 0 auto;
   padding: 0 15px;
-  /* background-color: rgba(0, 128, 0, 0.363); */
 }
 .section {
   margin-bottom: 150px;
